@@ -1,4 +1,11 @@
 {
+  "milestones": [
+    { "date": "2015-05-01", "label": "VW Golf" },
+    { "date": "2016-05-01", "label": "Apt. Vackov" },
+    { "date": "2020-03-01", "label": "Apt. Barrandov" },
+    { "date": "2023-05-01", "label": "House" },
+    { "date": "2024-05-01", "label": "Audi A5" }
+  ],
   "assets": [
     {
       "id": "portu",

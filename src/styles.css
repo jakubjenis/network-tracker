@@ -244,6 +244,13 @@ a {
   background: color-mix(in oklab, var(--header-bg) 84%, transparent 16%);
 }
 
+.chart-scroll {
+  scrollbar-width: none;
+}
+.chart-scroll::-webkit-scrollbar {
+  display: none;
+}
+
 .rise-in {
   animation: rise-in 700ms cubic-bezier(0.16, 1, 0.3, 1) both;
 }

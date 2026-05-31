@@ -15,8 +15,14 @@ export interface Asset {
   values: AssetValue[]
 }
 
+export interface Milestone {
+  date: string
+  label: string
+}
+
 export interface NetworthData {
   assets: Asset[]
+  milestones?: Milestone[]
 }
 
 export interface CategoryMeta {
